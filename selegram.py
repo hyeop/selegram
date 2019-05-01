@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 hashtag = {}
-path = "/usr/local/bin/chromedriver"
+path = "chromedriver"
 keyword = input("검색어를 입력하세요 : ")
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("disable-gpu")
